@@ -1,10 +1,14 @@
 # Securely Embed Payments in a NodeJS App
 
-This is a JavaScript application that uses the React framework and Node.js to demonstrate an ecommerce shopping cart with an embedded payment solution using [North's Browser Post API](https://developer.north.com/products/online/browser-post). The code in this repository handles the back-end payment process for a simple payment form on a website. The code that handles front-end part of the payment process is located in a [separate repository](https://github.com/NorthDevelopers/North-React-Browser-Post-API-With-Shopping-Cart), allowing each to be deployed separately.
+This is a Node.js/Express backend application that demonstrates a unified payment session server using [North's Embedded Checkout](https://developer.north.com/products/online/embedded-checkout). The code in this repository acts as the secure server that securely generates checkout sessions and verifies transaction status, protecting API keys and credentials.
+
+It is designed to serve as the backend for both companion React frontend repositories:
+- [North-React-Browser-Post-API-With-Shopping-Cart](https://github.com/NorthDevelopers/North-React-Browser-Post-API-With-Shopping-Cart) — React ecommerce shopping cart frontend.
+- [North-React-Browser-Post-API-Without-Shopping-Cart](https://github.com/NorthDevelopers/North-React-Browser-Post-API-Without-Shopping-Cart) — React single-item direct purchase frontend.
 
 ## Get Sandbox Credentials
 
-To get started, create a free [North Developer Portal account](https://developer.north.com/register). This will allow you to get the sandbox credentials that are required to test the app. Log in to your account to view the official [Browser Post API Integration Guide](https://developer.north.com/products/online/browser-post/integration-guide), then [contact](https://developer.north.com/contact) North's Sales Engineering team to get sandbox credentials added to your Developer Portal account.
+To get started, create a free [North Developer Portal account](https://developer.north.com/register). This will allow you to get the sandbox credentials that are required to test the app. Log in to your account to view the official [Embedded Checkout Integration Guide](https://developer.north.com/products/online/embedded-checkout), then [contact](https://developer.north.com/contact) North's Sales Engineering team to get sandbox credentials added to your Developer Portal account.
 
 ## Follow Along with the Tutorial
 
@@ -24,6 +28,6 @@ Click the "Shopping Cart" button to open the cart modal, which displays the item
 
 ![](/assets/payments-hub-react-browser-post-api-shopping-cart.png)
 
-Click the "Checkout" button to open a new tab with a checkout form where customers can enter their payment information and submit an order:
+Click the "Checkout" button to go to the checkout page, where a secure checkout form is embedded directly so customers can enter their payment information and submit an order:
 
 ![](/assets/payments-hub-react-browser-post-api-with-cart-checkout-form.png)
