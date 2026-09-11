@@ -1,5 +1,7 @@
 # Securely Embed Payments in a NodeJS App
 
+> ⚠️ **DEPRECATED**: This repository is deprecated. We recommend using [North-Node-Embedded-Checkout](https://github.com/NorthDevelopers/North-Node-Embedded-Checkout) instead.
+
 This is a JavaScript application that uses the React framework and Node.js to demonstrate an ecommerce shopping cart with an embedded payment solution using [North's Browser Post API](https://developer.north.com/products/online/browser-post). The code in this repository handles the back-end payment process for a simple payment form on a website. The code that handles front-end part of the payment process is located in a [separate repository](https://github.com/NorthDevelopers/North-React-Browser-Post-API-With-Shopping-Cart), allowing each to be deployed separately.
 
 ## Get Sandbox Credentials
